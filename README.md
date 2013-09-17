@@ -1,4 +1,4 @@
-My-Dlna
+My-Dlna: MediaServer and MediaRenderer
 =======
 in DLNA group, there are three main functions included:
 MediaServer,MediaRenderer,MediaController
