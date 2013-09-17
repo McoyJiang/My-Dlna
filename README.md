@@ -15,3 +15,22 @@ a few methods like setMute(),setVolume() etc.
 
 
 Here we implements the MediaServer and MediaRenderer (MediaController will be implemented in a few days)
+
+Implement details!!!
+I implements the DLNA function using the Cling source which is 
+a UPnP-compatible software stack for Java environments. 
+The project's goals are strict specification compliance, complete, 
+clean and extensive APIs, as well as rich SPIs for easy customization.
+Here i implements the file MyContentDirectoryService.java is used to create
+LocalService whose type is "ContentDirectory"
+
+the files MyAVTransportService.java and MyRendererControlService.java are used
+to create LocalService whose type is AVTransPort and RedereringControl in respect.
+
+How to use this project!!
+Import this project into your eclipse or other IDEs,
+build this project,the there will be a My DLNA.apk in 
+the folder bin/. Install this apk into your phone or pad
+the the phone/pad will be signed as a MediaServer and MediaRenderer
+at the same time. Other devices in the same environment of wireless
+connection will find this device as MediaServer and MediaRenderer.
